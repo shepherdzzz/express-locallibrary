@@ -11,7 +11,7 @@ var app = express();
 
 var mongoose = require('mongoose');
 // insert_your_database_url_here
-var mongoDB = 'mongodb+srv://shepherd:<password>@cluster0-xtzdj.azure.mongodb.net/test?retryWrites=true&w=majority';
+var mongoDB = 'mongodb+srv://shepherd:shepherdzzz@cluster0-xtzdj.azure.mongodb.net/locallibrary?retryWrites=true';
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
